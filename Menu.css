@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: azure;
+}
+nav{
+    background-color: black;
+    width: 15%;
+    height: 100vh;
+}
+
+#menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    color: pink;
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+}
+a:hover{
+    background-color: hotpink;
+    color:black;
+}
+#drop1, #drop2, #drop11, #drop12, #drop13,#drop14, #drop15, #drop16{
+    position: relative;
+}
+
+#drop1:hover menu1{
+    display: block;
+}
+
+#Vmenu, #Nmenu{
+    background-color: green;
+    list-style-type: none;
+    margin: 0;
+    padding: 0; 
+    position:absolute;  
+    top: 0%;
+    left: 100%;
+    display: none;
+}
+
+#drop1:hover #Vmenu, #drop2:hover #Nmenu, #drop11:hover #menu1,  #drop12:hover #menu2,  #drop13:hover #menu3,  #drop14:hover #menu4,  #drop15:hover #menu5,  #drop16:hover #menu6{
+    display: block;
+}
+#menu1,#menu2, #menu3, #menu4, #menu5, #menu6{
+    background-color: brown;
+    list-style-type: none;
+    margin: 0;
+    padding: 0; 
+    position:absolute;  
+    top: 0%;
+    left: 100%;
+    display: none;
+}
+
+
+
